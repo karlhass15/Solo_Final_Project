@@ -14,8 +14,6 @@ var Email = mongoose.model('Email');
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({expanded: true}));
 
-//added mongodb address from heroku setup of database
-//heroku_75nxvvk8:9p6jpuopll827471krsauujemv@ds057944.mongolab.com:57944/heroku_75nxvvk8);
 
 router.post('/', function(req, res) {
     console.log("contact route!");

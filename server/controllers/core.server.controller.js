@@ -1,8 +1,13 @@
 'use strict';
 
-// var from direct transport from nodemailer website best for using locally?? rest below
 var nodemailer = require('nodemailer');
-var transporter = nodemailer.createTransport();
+var sgTransport = require('nodemailer-sendgrid-transport');
+var options = {
+    auth: {
+        // sendgrid_password
+        api_key: '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'
+    }
+};
 
 //render main app page
 exports.renderIndex = function(req,res) {
@@ -28,12 +33,13 @@ exports.sendMail = function(req, res) {
     console.log("sending email!!");
     var data = req.body;
 
-    //might need to upgrade to SMTP transport
-    transporter.sendMail({
+//was for local testing, but changed transport to mailer and fired live to database and junkmail
+    mailer.sendMail({
         from: data.contactEmail,
         to: 'karl@reclaimedartcraftsman.com',
         subject: 'Message from ' + data.contactName,
         text: data.contactMsg
+
     });
 
     res.json(data);
