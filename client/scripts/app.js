@@ -1,5 +1,4 @@
 var myApp = angular.module("myApp", ['ui.bootstrap', 'ngRoute', 'ngAnimate', 'ngMaterial']);
-//, 'bootstrapLightbox', 'duScroll'
 
 myApp.config(['$routeProvider', function($routeProvider){
     $routeProvider.
