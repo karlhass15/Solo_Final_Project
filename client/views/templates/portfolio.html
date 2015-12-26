@@ -1,0 +1,19 @@
+
+<img class="frame" src="http://i.imgur.com/0F6SXwa.png?1" >
+
+<div ng-controller="GalleryController" id="portfolio">
+    <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img class="photo" ng-src="{{slide.image}}">
+                    <div class="carousel-caption">
+                        <!--<h4>Slide {{$index+1}}</h4>-->
+                    </div>
+                </slide>
+            </carousel>
+    </div>
+
+
+
+
+
+

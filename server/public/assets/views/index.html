@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Reclaimed Art Craftsman</title>
+
+    <link rel="stylesheet" href="/vendors/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="/vendors/bootstrap/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="/vendors/angular-bootstrap-lightbox/angular-bootstrap-lightbox.min.css">-->
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/hero.css">
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+
+    <!--<script type="text/javascript" src="/vendors/angular/angular.min.js"></script>-->
+    <script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-aria/angular-aria.min.js"></script>
+
+    <script type="text/javascript" src="/vendors/angular-material/angular-material.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-touch/angular-touch.min.js"></script>
+    <!--"/vendors/angular-ui-bootstrap/ui-bootstrap-tpls.min.js"-->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"
+            ></script>
+
+    <script type="text/javascript" src="/vendors/angular-scroll/angular-scroll.min.js"></script>
+
+    <!--<script type="text/javascript" src="/vendors/angular-bootstrap-lightbox/angular-bootstrap-lightbox.min.js"></script>-->
+
+    <!--hero slider and pinder-->
+    <!--<script type="text/javascript" src="/vendors/jquery/jquery.min.js"></script>-->
+
+
+
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+
+    <!--<script type="text/javascript" src="/assets/scripts/pinder.min.js"></script>-->
+    <script type="text/javascript" src="/assets/scripts/controllers/ContactFormController.min.js"></script>
+
+    <!--<script type="text/javascript" src="/assets/angular_directives/socialwidgets.min.js"></script>-->
+
+    <!--for hero slider-->
+
+    <script type="text/javascript" src="/assets/scripts/controllers/HeroController.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/controllers/GalleryController.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/controllers/ScrollControl.min.js"></script>
+
+    <div ng-view></div>
+
+</head>
+
+<body >
+
+
+
+<div  ng-include="'/assets/views/templates/header.html'"></div>
+
+<div ng-include="'/assets/views/templates/hero.html'"></div>
+
+<div ng-include="'/assets/views/templates/pinder.html'"></div>
+
+<div ng-include="'/assets/views/templates/about.html'"></div>
+
+<div ng-include="'/assets/views/templates/portfolio.html'"></div>
+
+<div ng-include="'/assets/views/templates/contact.html'"></div>
+
+<div ng-include="'/assets/views/templates/footer.html'"></div>
+
+
+
+</body>
+</html>
