@@ -25,7 +25,7 @@ myApp.config(['$routeProvider', function($routeProvider){
         }).
         when('/footer', {
            templateUrl: "/assets/views/templates/footer.html",
-            controller: "ScrollControl"
+            //controller: "ScrollControl"
     })
 }]);
 
