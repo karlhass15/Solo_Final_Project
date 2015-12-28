@@ -5,9 +5,10 @@ var sgTransport = require('nodemailer-sendgrid-transport');
 var options = {
     auth: {
         // sendgrid_password
-        api_key: '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'
+        api_key: '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'
     }
 };
+var mailer = nodemailer.createTransport(sgTransport(options));
 
 //render main app page
 exports.renderIndex = function(req,res) {

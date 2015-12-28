@@ -31,6 +31,7 @@
     "node": "0.0.0",
     "node-mailer": "^0.1.1",
     "nodemailer": "^1.10.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "npm": "^3.4.1",
     "path": "^0.12.7",
     "sendgrid": "^2.0.0"
