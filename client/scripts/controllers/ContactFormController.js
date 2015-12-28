@@ -14,7 +14,7 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
             });
 
 
-
+        //ToastPosition uses id=toastPosition in contact.html
             $scope.toastPosition = {
                 bottom: true,
                 top: false,
