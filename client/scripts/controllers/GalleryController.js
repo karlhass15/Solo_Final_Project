@@ -5,7 +5,6 @@ myApp.controller('GalleryController', ['$scope', function ($scope) {
     $scope.slides = [
 
 
-
         {
             image: 'http://i.imgur.com/TZWCeYI.jpg'
         },
