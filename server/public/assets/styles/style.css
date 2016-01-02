@@ -2,6 +2,7 @@
 .pinderlogo {
     height: 100px;
     width: auto;
+
 }
     /*box-shadow:  2px 2px 5px #959599;*/
 .pinderlogo:hover {
@@ -17,8 +18,7 @@
     border-radius: 5px;
     opacity: .80;
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin: auto;
 
 }
 .pinder:hover {
@@ -110,7 +110,6 @@ h5 {
 }
 /*GALLERY*/
 .frame {
-    position: absolute;
     z-index: 500;
     /*top-margin: 100px;*/
     /*margin-left: 255px;*/
